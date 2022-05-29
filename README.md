@@ -37,10 +37,10 @@ npm test
 
 👤 **kshitiz shah**
 
-* Website: kshitizshah.netlify.com
-* Twitter: [@kshitiz29498705](https://twitter.com/kshitiz29498705)
-* Github: [@domster4444](https://github.com/domster4444)
-* LinkedIn: [@kshitizshah7](https://linkedin.com/in/kshitizshah7)
+- Website: kshitizshah.netlify.com
+- Twitter: [@kshitiz29498705](https://twitter.com/kshitiz29498705)
+- Github: [@domster4444](https://github.com/domster4444)
+- LinkedIn: [@kshitizshah7](https://linkedin.com/in/kshitizshah7)
 
 ## 🤝 Contributing
 
@@ -50,5 +50,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
