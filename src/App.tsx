@@ -86,7 +86,7 @@ const App: React.FC = (): React.ReactElement => {
         {(() => {
           return postStateData.map(
             (post: PostI, index: number): JSX.Element => {
-              return <div key={index}>{post.title}</div>;
+              return <h1 key={index}>{post.title}</h1>;
             }
           );
         })()}

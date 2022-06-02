@@ -8,15 +8,34 @@
 //    font-weight:400
 // }
 // .lato_medium{
-  //     @extend .lato_regular_base;
-  //    font-weight:400
-  // }
-  // .lato_regular{
-    //     @extend .lato_regular_base;
-    //    font-weight:200
+//     @extend .lato_regular_base;
+//    font-weight:400
+// }
+// .lato_regular{
+//     @extend .lato_regular_base;
+//    font-weight:200
 // }
 
-
-
-
-
+.poppins_base {
+  font-family: 'Poppins', sans-serif;
+}
+.poppins_bold {
+  @extend .poppins_base;
+  font-weight: 700;
+}
+.poppins_semibold {
+  @extend .poppins_base;
+  font-weight: 600;
+}
+.poppins_medium {
+  @extend .poppins_base;
+  font-weight: 500;
+}
+.poppins_regular {
+  @extend .poppins_base;
+  font-weight: 400;
+}
+.poppins_thin {
+  @extend .poppins_base;
+  font-weight: 100;
+}

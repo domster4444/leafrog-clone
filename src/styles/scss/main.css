@@ -2314,3 +2314,27 @@ a {
 a:hover, a:focus {
   color: #5ec7c8;
 }
+
+.poppins_base, .poppins_bold, .poppins_semibold, .poppins_medium, .poppins_regular, .poppins_thin {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins_bold {
+  font-weight: 700;
+}
+
+.poppins_semibold {
+  font-weight: 600;
+}
+
+.poppins_medium {
+  font-weight: 500;
+}
+
+.poppins_regular {
+  font-weight: 400;
+}
+
+.poppins_thin {
+  font-weight: 100;
+}

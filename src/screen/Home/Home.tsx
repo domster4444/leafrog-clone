@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-      <h1>HOME BODY</h1>
+      <h1 className="poppins_regular">HOME BODY</h1>
     </div>
   );
 };
