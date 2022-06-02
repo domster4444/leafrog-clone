@@ -1,0 +1,47 @@
+[33mcommit 005b08753962a46d7b0caaadc681922235b74a8c[m[33m ([m[1;36mHEAD -> [m[1;32mdev/ui-group-1_dev-module[m[33m, [m[1;31morigin/dev/ui-group-1_dev-module[m[33m)[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Wed Jun 1 03:34:01 2022 -0500
+
+    chore(setup): add redux-toolkit to project
+
+[33mcommit 08a0cbb871e2a284d2f18bb1414c9be1350cf57c[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Mon May 30 06:41:07 2022 -0500
+
+    chore(setup): config prettier to ignore sass files
+
+[33mcommit f20c5a059d3a4b01f817295a074722485d43b4db[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Mon May 30 06:07:41 2022 -0500
+
+    chore(setup): add context api config
+
+[33mcommit fd28b2cb08cef666acaffb03e19f144c9713023e[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Sun May 29 10:16:36 2022 -0500
+
+    chore(config): add storybook
+
+[33mcommit 4822e207e43d04a3fe6ea63da079d60ca2fb478e[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Sun May 29 09:47:12 2022 -0500
+
+    chore(readme): add read-me file
+
+[33mcommit 6212424747d6aaa87899faedb4fed98ec770db72[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Sun May 29 09:25:26 2022 -0500
+
+    chore(config): setup absolute path for project
+
+[33mcommit 6085587c087cb0337705211f2f3965466589e46d[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Sun May 29 09:21:00 2022 -0500
+
+    chore(config): setup commitlint
+
+[33mcommit 09f713665d9f1adf303d25af4a60905ddda032d9[m[33m ([m[1;31morigin/release/ui-group-1_deploy-module[m[33m, [m[1;31morigin/hotfix/ui-group-1_fix-bug-module[m[33m, [m[1;31morigin/feature/ui-group-1_add-feat-module[m[33m, [m[1;32mrelease/ui-group-1_deploy-module[m[33m, [m[1;32mmain[m[33m, [m[1;32mhotfix/ui-group-1_fix-bug-module[m[33m, [m[1;32mfeature/ui-group-1_add-feat-module[m[33m)[m
+Author: domster4444 <kshitiz.shah@deerwalk.edu.np>
+Date:   Sun May 29 09:10:30 2022 -0500
+
+    Initialize project using Create React App

@@ -5,6 +5,12 @@ import TestRenderer from 'react-test-renderer';
  */
 import Toolbar from 'components/Toolbar';
 
+/**
+ * @description //*redux-toolkit imports
+ */
+import { Provider } from 'react-redux';
+import { store } from 'redux/store';
+
 const componentProps = {
   logo: 'https://www.lftechnology.com/wp-content/themes/Froggy/img/logo_leapfrog.svg',
   links: [
@@ -17,7 +23,11 @@ const componentProps = {
 };
 
 const renderComponent = (logo, links) => {
-  render(<Toolbar logo={logo} links={links} />);
+  render(
+    <Provider store={store}>
+      <Toolbar logo={logo} links={links} />
+    </Provider>
+  );
 };
 
 describe('Toolbar Component', () => {
@@ -46,7 +56,9 @@ describe('Toolbar Component', () => {
 
   test('this component should not change', () => {
     const tree = TestRenderer.create(
-      <Toolbar logo={componentProps.logo} links={componentProps.links} />
+      <Provider store={store}>
+        <Toolbar logo={componentProps.logo} links={componentProps.links} />
+      </Provider>
     );
 
     expect(tree).toMatchSnapshot();
