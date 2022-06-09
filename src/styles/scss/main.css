@@ -2286,6 +2286,10 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  cursor: pointer;
+}
+
 @keyframes animationOne {
   0% {
     transform: translateY(0px);

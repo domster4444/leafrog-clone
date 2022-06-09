@@ -29,15 +29,31 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
-  
+/* 
+"phone": 360px,
+  "tablet": 768px,
+  "desktop": 1366px,
+  "LGdesktop": 1920px   */
+
+
+
+
   :root{
     font-size:10px;
-    --primary-green: green;
-    --primary-white: white;
+    --primary-green: #2ecc71;
+    --primary-dark-green: #25a25a;
+    --primary-white: #ffffff;
+    --primary-navy:  #102b7b;
+    --primary-navy-light:  #1f44b4; /*used for herosection bg-color*/ 
     --primary-black: black;
-    --primary-grey: grey;
-    --primary-navy: navy;
+    --primary-grey: #767683;
     --secondary-lightsky: cyan;
+  //? Devices
+  --phone:360px;
+  --tablet:768px;
+  --desktop:1366px;
+  --lgdesktop:1920px;
+  
   }
 `;
 

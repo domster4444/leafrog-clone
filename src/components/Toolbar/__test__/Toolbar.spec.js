@@ -1,13 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import TestRenderer from 'react-test-renderer';
-/**
- * @imports components
- */
+//*components
 import Toolbar from 'components/Toolbar';
 
-/**
- * @description //*redux-toolkit imports
- */
+//*  @description //*redux-toolkit imports
 import { Provider } from 'react-redux';
 import { store } from 'redux/store';
 
@@ -54,13 +50,13 @@ describe('Toolbar Component', () => {
     expect(screen.getByRole('button')).toHaveTextContent(/GET STARTED/i);
   });
 
-  test('this component should not change', () => {
-    const tree = TestRenderer.create(
-      <Provider store={store}>
-        <Toolbar logo={componentProps.logo} links={componentProps.links} />
-      </Provider>
-    );
+  // test('should render component that matches snapshot', () => {
+  //   const tree = TestRenderer.create(
+  //     <Provider store={store}>
+  //       <Toolbar logo={componentProps.logo} links={componentProps.links} />
+  //     </Provider>
+  //   );
 
-    expect(tree).toMatchSnapshot();
-  });
+  //   expect(tree).toMatchSnapshot();
+  // });
 });

@@ -4,10 +4,13 @@ interface IProps {
   color?: string;
 }
 
+export const Header = styled.header`
+  width: 100%;
+`;
+
 export const Nav = styled.nav<IProps>`
-  background: var(--primary-white);
   display: flex;
-  padding: 1.5rem 0rem;
+  padding: 1.65rem 0rem;
   justify-content: space-between;
 `;
 
@@ -17,7 +20,7 @@ export const NavList = styled.ul`
   align-items: center;
 `;
 export const NavItem = styled.li`
-  margin: 0.85rem;
+  margin: 0.85rem 2.95rem;
   &:hover {
     a {
       color: var(--primary-navy);
@@ -26,11 +29,10 @@ export const NavItem = styled.li`
 `;
 export const NavLink = styled.a`
   text-decoration: none;
-  color: var(--primary-black);
-  font-size: 1.8rem;
+  color: var(--primary-grey);
+  font-size: 1.6rem;
 `;
 
 export const Logo = styled.img`
-  height: 4rem;
-  width: 20rem;
+  height: 4.5rem;
 `;
